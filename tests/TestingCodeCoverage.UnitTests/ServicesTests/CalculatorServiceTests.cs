@@ -1,4 +1,5 @@
 using FluentAssertions;
+using TestingCodeCoverage.Services;
 using Xunit;
 
 namespace TestingCodeCoverage.Testing

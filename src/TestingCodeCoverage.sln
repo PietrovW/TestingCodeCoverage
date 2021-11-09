@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingCodeCoverage", "TestingCodeCoverage\TestingCodeCoverage.csproj", "{83BF96EE-AC16-477E-A6A1-78926CCF2C87}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingCodeCoverage.Testing", "TestingCodeCoverage.Testing\TestingCodeCoverage.Testing.csproj", "{573DC8A3-0DD2-4D69-87B9-DB8F1E123DB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingCodeCoverage.UnitTests", "..\tests\TestingCodeCoverage.UnitTests\TestingCodeCoverage.UnitTests.csproj", "{DBBF03DA-F4DF-48A6-A06C-C7435EC6992A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{83BF96EE-AC16-477E-A6A1-78926CCF2C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83BF96EE-AC16-477E-A6A1-78926CCF2C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83BF96EE-AC16-477E-A6A1-78926CCF2C87}.Release|Any CPU.Build.0 = Release|Any CPU
-		{573DC8A3-0DD2-4D69-87B9-DB8F1E123DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{573DC8A3-0DD2-4D69-87B9-DB8F1E123DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{573DC8A3-0DD2-4D69-87B9-DB8F1E123DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{573DC8A3-0DD2-4D69-87B9-DB8F1E123DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBF03DA-F4DF-48A6-A06C-C7435EC6992A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBF03DA-F4DF-48A6-A06C-C7435EC6992A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBF03DA-F4DF-48A6-A06C-C7435EC6992A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBF03DA-F4DF-48A6-A06C-C7435EC6992A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
