@@ -18,6 +18,7 @@ namespace TestingCodeCoverage.Testing
             //Assert
             Assert.Equal(expected, actual);
         }
+
         [Theory]
         [InlineData(4, 3, 1)]
         [InlineData(20.3, 3.7, 16.6)]
@@ -33,6 +34,7 @@ namespace TestingCodeCoverage.Testing
 
             actual.Should().Equals(expected);
         }
+
         [Theory]
         [InlineData(4, 3, 12)]
         [InlineData(20.3, 3.7, 75.11)]
