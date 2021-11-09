@@ -24,5 +24,5 @@ jobs:
     - name: Test
       run: dotnet test --logger "trx;LogFileName=testresults.trx" /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=./TestResults/Coverage/
     - name: reportgenerator
-      run: reportgenerator "-reports:./TestResults/Coverage/coverage.cobertura.xml" "-targetDir:./TestResults/Coverage/Reports" -reportTypes:htmlInline
+      run: reportgenerator -reports:./TestResults/Coverage/coverage.cobertura.xml -targetDir:./TestResults/Coverage/Reports -reportTypes:htmlInline
 
